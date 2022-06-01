@@ -1,0 +1,17 @@
+.area {
+margin: 0.2rem;
+}
+
+.area svg path:hover {
+  fill: rgb(198, 133, 198);
+}
+
+@media (max-width: 1400px) {
+  .area {
+    display: flex;
+    justify-content: center;
+  }
+  .area svg {
+    position: relative;
+  }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Wheather App</title>
+  </head>
+  <body>
+    <div id="root">
+    </div>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyA0fCmM1pIWIsOEOBMIc9vxQkGIDK1q7i0",
+        authDomain: "my-project-c5c62.firebaseapp.com",
+        projectId: "my-project-c5c62",
+        storageBucket: "my-project-c5c62.appspot.com",
+        messagingSenderId: "347379638729",
+        appId: "1:347379638729:web:f69e1be9844ad5c84a8818",
+        measurementId: "G-L6GZZCG5GP"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>

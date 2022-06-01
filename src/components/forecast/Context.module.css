@@ -1,0 +1,42 @@
+.control {
+  padding: 0.5rem;
+  margin-top: 5rem;
+  margin-right: 1.5rem;
+  border: 1px solid white;
+  border-radius: 2rem;
+  width: 250px;
+  height: auto;
+}
+
+.control label {
+  color: #fcfcfc;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.tempature {
+  color: #ffb600;
+  font-size: 36px;
+  margin-top: 1rem;
+}
+
+.rain {
+  color: #00ffbc;
+  font-size: 36px;
+  margin-top: 1rem;
+}
+
+.description {
+  color: #bac639;
+  display: flex;
+  justify-content: space-around;
+  font-size:24px;
+  padding: 1rem;
+}
+
+@media (max-width: 1400px) {
+  .control {
+    margin-top: 2rem;
+    width: 60%;
+  }
+}

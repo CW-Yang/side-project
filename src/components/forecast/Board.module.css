@@ -1,0 +1,32 @@
+.board {
+  width: 60rem;
+  height: 60%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+
+.board label {
+  font-size: 60px;
+  color: #b99362;
+  font-weight: bold;
+  width: 100%;
+}
+
+.board span {
+  width: 100%;
+  font-size: 40px;
+  color: rgb(198, 133, 198);
+}
+
+@media (max-width: 1400px) {
+  .board {
+   margin-left: 1rem;
+   margin-top: 6rem;
+   width: 40rem;
+   flex-wrap: wrap;
+  }
+}
+
